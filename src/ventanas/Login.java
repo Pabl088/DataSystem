@@ -109,7 +109,6 @@ public class Login extends javax.swing.JFrame {
         // Boton Acceder
         user = txt_user.getText().trim();
         pass = String.valueOf(txt_password.getPassword()).trim();
-        System.out.println(pass);
 
         if (!user.equals("") && !pass.equals("")) {
             try {
