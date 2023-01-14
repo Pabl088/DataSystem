@@ -170,7 +170,7 @@ public class Capturista extends javax.swing.JFrame {
             String ruta = System.getProperty("user.home");
             PdfWriter.getInstance(documento, new FileOutputStream(ruta + "/Desktop/Lista de clientes.pdf"));
             
-            com.itextpdf.text.Image header = com.itextpdf.text.Image.getInstance("src/images/BannerPDF.png");
+            com.itextpdf.text.Image header = com.itextpdf.text.Image.getInstance(getClass().getResource("/images/BannerPDF.png"));
             header.scaleToFit(650, 1000);
             header.setAlignment(Chunk.ALIGN_CENTER);
             
