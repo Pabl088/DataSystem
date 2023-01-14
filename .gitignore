@@ -4,3 +4,6 @@ dist/
 nbproject/
 test/
 build.xml
+bin/
+.classpath
+.project
