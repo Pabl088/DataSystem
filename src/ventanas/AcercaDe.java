@@ -53,7 +53,7 @@ public class AcercaDe extends javax.swing.JFrame {
             setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         }
 
-        ImageIcon wallpaper = new ImageIcon("src/images/wallpaperPrincipal.jpg");
+        ImageIcon wallpaper = new ImageIcon(getClass().getResource("/images/wallpaperPrincipal.jpg"));
         Icon icono = new ImageIcon(wallpaper.getImage().getScaledInstance(jLabel_wallpaper.getWidth(),
                 jLabel_wallpaper.getHeight(), Image.SCALE_DEFAULT));
         jLabel_wallpaper.setIcon(icono);
@@ -87,11 +87,11 @@ public class AcercaDe extends javax.swing.JFrame {
         jLabel_1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel_1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_1.setText("Sistema creado por Pablo Albín");
-        getContentPane().add(jLabel_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, -1, -1));
+        getContentPane().add(jLabel_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel1.setText("Contacto: pablo.albin88@gmail.com");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, -1, -1));
         getContentPane().add(jLabel_wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 300));
 
         pack();

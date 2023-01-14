@@ -31,13 +31,13 @@ public class Login extends javax.swing.JFrame {
         setTitle("Acceso al sistema");
         setLocationRelativeTo(null);
 
-        ImageIcon wallpaper = new ImageIcon("src/images/wallpaperPrincipal.jpg");
+        ImageIcon wallpaper = new ImageIcon(getClass().getResource("/images/wallpaperPrincipal.jpg"));
         Icon icono = new ImageIcon(wallpaper.getImage().getScaledInstance(jLabel_wallpaper.getWidth(),
                 jLabel_wallpaper.getHeight(), Image.SCALE_DEFAULT));
         jLabel_wallpaper.setIcon(icono);
         this.repaint();
 
-        ImageIcon wallapper_logo = new ImageIcon("src/images/DS.png");
+        ImageIcon wallapper_logo = new ImageIcon(getClass().getResource("/images/DS.png"));
         Icon icono_logo = new ImageIcon(wallapper_logo.getImage().getScaledInstance(jLabel_logo.getWidth(),
                 jLabel_logo.getHeight(), Image.SCALE_DEFAULT));
         jLabel_logo.setIcon(icono_logo);

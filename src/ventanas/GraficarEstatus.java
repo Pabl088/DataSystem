@@ -39,7 +39,7 @@ public class GraficarEstatus extends javax.swing.JFrame {
         setResizable(false);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
-        ImageIcon wallpaper = new ImageIcon("src/images/wallpaperPrincipal.jpg");
+        ImageIcon wallpaper = new ImageIcon(getClass().getResource("/images/wallpaperPrincipal.jpg"));
         Icon icono = new ImageIcon(wallpaper.getImage().getScaledInstance(jLabel_wallpaper.getWidth(),
                 jLabel_wallpaper.getHeight(), Image.SCALE_DEFAULT));
         jLabel_wallpaper.setIcon(icono);
