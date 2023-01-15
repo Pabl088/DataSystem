@@ -13,3 +13,5 @@ de acuerdo al rol que desempeñe dentro de la empresa: Administrador, Capturista
 - El sistema permite visualizar la información por medio de tablas con la posibilidad de filtar 
 el contendido de acuerdo a su estado (en el caso de los equipos).
 - Se puede observar las estadisticas de los equipos registrados representada en gráficas.
+
+- El sitio debe contar con una sección de bienvenida con inmuebles destacados.
