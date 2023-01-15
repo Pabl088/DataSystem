@@ -3,6 +3,7 @@
 <br/>
 
 ## Sistema para la gestión de información empresarial, orientado al sector de reparación y mantenimiento de equipos informáticos.
+
 <br/>
 - Permite registrar tanto a usuarios, clientes y equipos. 
 <br/>
